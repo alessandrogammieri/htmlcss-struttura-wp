@@ -4,24 +4,53 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body {
+  background-image: url("media/sfondo-rovere-scuro.jpg");
+}
+
 header {
-  background-color: red;
-  height: 500px;
+  height: 550px;
   position: relative;
+}
+
+.img {
+  background-image: url("media/wood.jpg");
+  position: absolute;
+  top: 56.3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1600px;
+  height: 480px;
+  border: solid 10px #fff;
 }
 
 h1 {
   position: absolute;
-  top: 50%;
+  top: 56.3%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-family: 'Oswald', sans-serif;
   font-size: 150px;
+  color: #ffffff;
+  text-shadow: 4px 4px #000000;
+
 }
 
 menu {
-  background-color: brown;
   height: 100px;
   position: relative;
+}
+
+.cont-menu {
+  background-color: brown;
+  position: absolute;
+  top: 50.3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1600px;
+  height: 100px;
 }
 
 h2 {
@@ -33,9 +62,18 @@ h2 {
 }
 
 footer {
-  background-color: grey;
   height: 350px;
   position: relative;
+}
+
+.cont-footer {
+  background-color: grey;
+  position: absolute;
+  top: 50.3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1600px;
+  height: 300px;
 }
 
 main::after {
@@ -45,41 +83,72 @@ main::after {
 }
 
 nav {
-  background-color: yellow;
   height: 800px;
   float: left;
-  width: 20%;
+  width: 30%;
   position: relative;
 }
 
+.cont-nav {
+  background-color: yellow;
+  position: absolute;
+  top: 50%;
+  left: 57%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 700px;
+}
+
 section {
-  background-color: blue;
   height: 800px;
   float: left;
-  width: 60%;
+  width: 40%;
+  position: relative;
+}
+
+.cont-section {
+  background-color: blue;
+  position: absolute;
+  top: 56%;
+  left: 57%;
+  transform: translate(-56%, -50%);
+  width: 90%;
+  height: 800px;
+}
+
+aside {
+  height: 1200px;
+  float: right;
+  width: 30%;
   position: relative;
 }
 
 .aside-one {
   background-color: green;
-  height: 400px;
-  float: right;
-  width: 20%;
-  position: relative;
+  position: absolute;
+  top: 18.6%;
+  right: -3%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 350px;
 }
 
 .aside-two {
   background-color: pink;
-  height: 400px;
-  float: right;
-  width: 20%;
-  position: relative;
+  position: absolute;
+  top: 50.5%;
+  right: -3%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 350px;
 }
 
 .aside-three {
   background-color: orange;
-  height: 400px;
-  float: right;
-  width: 20%;
-  position: relative;
+  position: absolute;
+  top: 82.3%;
+  right: -3%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 350px;
 }
