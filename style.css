@@ -31,3 +31,55 @@ h2 {
   transform: translate(-50%, -50%);
   font-size: 50px;
 }
+
+footer {
+  background-color: grey;
+  height: 350px;
+  position: relative;
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav {
+  background-color: yellow;
+  height: 800px;
+  float: left;
+  width: 20%;
+  position: relative;
+}
+
+section {
+  background-color: blue;
+  height: 800px;
+  float: left;
+  width: 60%;
+  position: relative;
+}
+
+.aside-one {
+  background-color: green;
+  height: 400px;
+  float: right;
+  width: 20%;
+  position: relative;
+}
+
+.aside-two {
+  background-color: pink;
+  height: 400px;
+  float: right;
+  width: 20%;
+  position: relative;
+}
+
+.aside-three {
+  background-color: orange;
+  height: 400px;
+  float: right;
+  width: 20%;
+  position: relative;
+}
